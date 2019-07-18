@@ -23,5 +23,6 @@ python csv2vw.py \
 python csv2vw.py \
 	--skip_headers \
 	--convert_zeros \
+	--label_index -1 \
 	$val_binary_file \
 	$val_binary_vw_file
