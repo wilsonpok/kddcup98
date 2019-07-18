@@ -3,7 +3,6 @@ set -eux
 
 # Inputs
 lrn_binary_vw_file=$HOME/kddcup98/data/lrn_binary.vw
-val_binary_vw_file=$HOME/kddcup98/data/val_binary.vw
 
 # Outputs
 lrn_binary_preds=$HOME/kddcup98/data/lrn_binary_preds.csv

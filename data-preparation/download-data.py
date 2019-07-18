@@ -27,6 +27,11 @@ lrn['TARGET_B'].value_counts(normalize=True)
 # 1    0.050759
 
 
+# validation data has OSOURCE = INF, training data doesn't
+lrn = lrn.drop(['OSROUCE'], axis=1)
+val = val.drop(['OSROUCE'], axis=1)
+
+
 
 ################
 # Output data
@@ -42,4 +47,3 @@ val_output = val.drop(['CONTROLN'], axis=1)
 
 lrn_output.to_csv('~/kddcup98/data/lrn_binary.csv', index=False)
 val_output.to_csv('~/kddcup98/data/val_binary.csv', index=False)
-
