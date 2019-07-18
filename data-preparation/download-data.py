@@ -28,7 +28,6 @@ lrn['TARGET_B'].value_counts(normalize=True)
 
 
 
-
 ################
 # Output data
 ################
@@ -43,8 +42,4 @@ val_output = val.drop(['CONTROLN'], axis=1)
 
 lrn_output.to_csv('~/kddcup98/data/lrn_binary.csv', index=False)
 val_output.to_csv('~/kddcup98/data/val_binary.csv', index=False)
-
-
-
-
 
