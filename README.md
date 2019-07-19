@@ -9,5 +9,4 @@ Convert it to a contextual bandit problem (see http://www.cs.columbia.edu/~jebar
 2. [run-csv2vw.sh](./data-preparation/run-csv2vw.sh)
 3. [train-model.sh](./vw/train-model.sh)
 4. [score-validation-set.sh](./vw/score-validation-set.sh)
-
-- Off-policy evaluation
+5. [evaluate-policies.py](./evaluation/evaluate-policies.py)

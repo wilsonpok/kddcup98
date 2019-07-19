@@ -100,12 +100,11 @@ model_set.loc[model_set.actual == 1]
 random_set.loc[random_set.actual == 1]
 
 
+###########
 # IPS
+###########
 round(np.mean(model_set['loss_w']), 5)
 # -1.08056
 
 round(np.mean(random_set['loss_w']), 5)
 # -1.08664
-
-
-
